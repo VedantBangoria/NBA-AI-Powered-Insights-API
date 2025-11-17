@@ -1,0 +1,146 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #0B0B0B;
+    color: white;
+    padding-bottom: 80px;
+  }
+  
+  .nba-header {
+    background: linear-gradient(90deg, #17408B, #C9082A);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 10rem;
+  }
+  
+  .nba-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3 rem;
+    padding: 2rem;
+  }
+  
+  .nba-card {
+    background: #1C1C1C;
+    padding: 1.5rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .nba-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  }
+  
+  .nba-card h2 {
+    color: #C9082A;
+    margin-bottom: 0.5rem;
+  }
+  
+  .nba-card p {
+    color: #E0E0E0;
+    font-size: 1rem;
+  }
+  .nba-btn {
+    background: linear-gradient(135deg, #1d428a, #c8102e); /* Lakers/Clippers/NBA colors */
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nba-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: linear-gradient(135deg, #c8102e, #1d428a);
+  }
+  
+  .nba-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  
+  /* Optional: Glow effect for a more flashy look */
+  .nba-btn.glow:hover {
+    box-shadow: 0 0 15px rgba(200, 16, 46, 0.7), 0 0 30px rgba(29, 66, 138, 0.6);
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 1.5rem; /* space between buttons */
+    flex-wrap: wrap; /* let buttons go to the next line on smaller screens */
+    margin-top: 2rem;
+  }
+  
+  /* Individual buttons */
+  .nba-button {
+    background: linear-gradient(90deg, #1d428a, #7e10c8); /* NBA blue to red */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .nba-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    gap: 5rem; /* space between buttons */
+    flex-wrap: wrap; /* let buttons go to the next line on smaller screens */
+    margin-top: 2rem;
+
+  }
+
+  main {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #E0E0E0;
+    background: linear-gradient(90deg, #1d428a, #7e10c8);
+    border-radius: 14px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  footer {
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 4px;
+    background: linear-gradient(90deg, #1d428a, #7e10c8);;
+    color: #E0E0E0;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #333;
+    font-weight: bold;
+    line-height: 1.2; /* keeps text compact */
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 10rem;
+  }
